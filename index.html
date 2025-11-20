@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gunjan - Sorry Message</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .container {
+            max-width: 900px;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+            text-align: center;
+            margin: 20px;
+        }
+        
+        .header {
+            margin-bottom: 30px;
+        }
+        
+        h1 {
+            font-size: 3em;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+        
+        .your-name {
+            font-size: 1.2em;
+            margin-top: 5px;
+            color: #ffd700;
+            font-weight: bold;
+        }
+        
+        .message-box {
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 15px;
+            padding: 30px;
+            margin: 20px 0;
+        }
+        
+        .message {
+            font-size: 1.3em;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+        
+        .emoji {
+            font-size: 3em;
+            margin: 10px;
+            animation: bounce 2s infinite;
+        }
+        
+        .sticker {
+            font-size: 4em;
+            margin: 20px 0;
+        }
+        
+        .music-section {
+            margin: 30px 0;
+        }
+        
+        .music-title {
+            font-size: 1.8em;
+            margin-bottom: 20px;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+        }
+        
+        .video-container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 15px;
+            margin-top: 20px;
+        }
+        
+        .video-item {
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 10px;
+            padding: 15px;
+            transition: transform 0.3s ease;
+        }
+        
+        .video-item:hover {
+            transform: scale(1.02);
+        }
+        
+        .video-title {
+            font-size: 1em;
+            margin-bottom: 10px;
+            color: #ffd700;
+            font-weight: bold;
+        }
+        
+        .video-player {
+            width: 100%;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        
+        video {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        
+        .footer {
+            margin-top: 30px;
+            font-size: 1.1em;
+        }
+        
+        @keyframes bounce {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-20px); }
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(30px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        
+        .fade-in {
+            animation: fadeIn 1s ease-in;
+        }
+
+        @media (max-width: 768px) {
+            .video-container {
+                grid-template-columns: 1fr;
+            }
+            
+            h1 {
+                font-size: 2.5em;
+            }
+            
+            .container {
+                padding: 25px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header fade-in">
+            <h1>💖 Gunjan Rajpoot💖</h1>
+            <p>Meri Pyari Best Friend</p>
+        </div>
+        
+        <div class="message-box fade-in">
+            <div class="sticker">😔🙏💝</div>
+            
+            <div class="message">
+                <p>Gunjan, yaar... Main jaanta hun tum mujhse gussa ho 🤕</p>
+                <p>Par please ek baar toh suno na... 😥</p>
+            </div>
+            
+            <div class="emoji">😢</div>
+            
+            <div class="message">
+                <p>Tumhari muskurahat meri duniya ki sabse khoobsurat cheez hai ✨</p>
+                <p>Tumhare bina toh sab adhura sa lagta hai... 🌸</p>
+            </div>
+            
+            <div class="emoji">🥺</div>
+            
+            <div class="message">
+                <p>Main jaanta hun maine galti ki hai 😔</p>
+                <p>Par ek mauka de do na... Main sach mein sorry kehna chahta hun 🙏</p>
+            </div>
+            
+            <div class="emoji">❤</div>
+            
+            <!-- New Sorry Lines Added -->
+            <div class="message">
+                <p>Maine socha bhi nahi tha ki tum itna gussa hogi 😔</p>
+                <p>Main maanta hun ki mera behavior thik nahi tha... 🤕</p>
+            </div>
+            
+            <div class="emoji">😞</div>
+            
+            <div class="message">
+                <p>Please meri ek galti ke liye humari dosti ko khatra mat banao 💔</p>
+                <p>Tumhari dosti se zyada precious mere liye kuch nahi hai 💎</p>
+            </div>
+            
+            <div class="emoji">🙇‍♂</div>
+            
+            <div class="message">
+                <p>Main promise karta hun aage se kabhi aisa nahi hoga 🤞</p>
+                <p>Bas ek chance de do... Main sab theek kar dunga 🥰</p>
+            </div>
+            
+            <div class="emoji">💝</div>
+            
+            <div class="message">
+                <p>Tumhare bina toh meri life incomplete hai 🌈</p>
+                <p>Please na... Maaf kar do... Main tumse dosti nahi kho sakta 😭</p>
+            </div>
+            
+            <div class="sticker">🤗😇💕</div>
+        </div>
+        
+        <div class="music-section fade-in">
+            <h2 class="music-title">🎵 Tumhare Liye 6 Special Video Songs 🎵</h2>
+            
+            <div class="video-container">
+                <!-- Video 1 -->
+                <div class="video-item">
+                    <div class="video-title">🎬 Dil Ka Jo Haal Hai - Besharam</div>
+                    <div class="video-player">
+                        <video controls>
+                            <source src="y2mate.com - Dil Ka Jo Haal Hai Full Video Song Besharam  Ranbir Kapoor Pallavi Sharda_1080p.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                </div>
+                
+                <!-- Video 2 -->
+                <div class="video-item">
+                    <div class="video-title">🎬 Dilli Wali Girlfriend</div>
+                    <div class="video-player">
+                        <video controls>
+                            <source src="Dilli Wali Girlfriend - Yeh Jawaani Hai Deewani-(HDvideo9).mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                </div>
+                
+                <!-- Video 3 -->
+                <div class="video-item">
+                    <div class="video-title">🎬 Chal Tere Ishq Mein - Gadar 2</div>
+                    <div class="video-player">
+                        <video controls>
+                            <source src="y2mate.com - Chal Tere Ishq Mein Female Gadar 2 Utkarsh SharmaSimratt Kaur Vishal MMithoonNeetiSayeed_1440p.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                </div>
+                
+                <!-- Video 4 -->
+                <div class="video-item">
+                    <div class="video-title">🎬 Naseeb Se - SatyaPrem Ki Katha</div>
+                    <div class="video-player">
+                        <video controls>
+                            <source src="Naseeb Se - SatyaPrem Ki Katha-(HDvideo9).mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                </div>
+                
+                <!-- Video 5 -->
+                <div class="video-item">
+                    <div class="video-title">🎬 Naseeb Se - SatyaPrem Ki Katha</div>
+                    <div class="video-player">
+                        <video controls>
+                            <source src="Heropanti - Tabah -720p - TinyJuke.com.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                </div>
+                
+                <!-- Video 6 -->
+                <div class="video-item">
+                    <div class="video-title">🎬 Soni Soni - Mohabbatein</div>
+                    <div class="video-player">
+                        <video controls>
+                            <source src="SSYouTube.online_Soni Soni Full Song  Holi Song  Mohabbatein  Shah Rukh Khan, Aishwarya Rai  Jatin-Lalit, Anand B_720p.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer fade-in">
+            <p>Tumhara best friend hamesha tumhara saath dega... 🤝</p>
+            <p style="margin-top: 10px;">With lots of love and apologies 💝</p>
+            <p style="margin-top: 5px; color: #ffd700;">- Arun Rathore</p>
+            <div class="sticker" style="font-size: 2em;">😘✨🌹</div>
+        </div>
+    </div>
+
+    <script>
+        // Simple animation on load
+        document.addEventListener('DOMContentLoaded', function() {
+            const elements = document.querySelectorAll('.fade-in');
+            elements.forEach((element, index) => {
+                element.style.animationDelay = ${index * 0.2}s;
+            });
+        });
+    </script>
+</body>
+</html>
